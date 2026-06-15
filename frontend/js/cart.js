@@ -14,7 +14,7 @@ const cartDiv =
 document.getElementById("cartItems");
 
 fetch(
-`http://localhost:5000/cart/${currentUser.user._id}`
+`https://ecommerce-store-bj5z.onrender.com/cart/${currentUser.user._id}`
 )
 
 .then(response =>
@@ -152,7 +152,7 @@ quantity
 
 await fetch(
 
-`http://localhost:5000/cart/${cartId}`,
+`https://ecommerce-store-bj5z.onrender.com/cart/${cartId}`,
 
 {
 
@@ -192,7 +192,7 @@ if(quantity<=1){
 
 await fetch(
 
-`http://localhost:5000/cart/${cartId}`,
+`https://ecommerce-store-bj5z.onrender.com/cart/${cartId}`,
 
 {
 
@@ -210,7 +210,7 @@ return;
 
 await fetch(
 
-`http://localhost:5000/cart/${cartId}`,
+`https://ecommerce-store-bj5z.onrender.com/cart/${cartId}`,
 
 {
 
@@ -263,7 +263,7 @@ try{
 const response =
 await fetch(
 
-`http://localhost:5000/cart/${currentUser.user._id}`
+`https://ecommerce-store-bj5z.onrender.com/cart/${currentUser.user._id}`
 
 );
 
@@ -274,7 +274,7 @@ for(const item of cartItems){
 
 await fetch(
 
-"http://localhost:5000/orders",
+"https://ecommerce-store-bj5z.onrender.com/orders",
 
 {
 
@@ -312,7 +312,7 @@ address
 
 await fetch(
 
-`http://localhost:5000/cart/${item._id}`,
+`https://ecommerce-store-bj5z.onrender.com/cart/${item._id}`,
 
 {
 

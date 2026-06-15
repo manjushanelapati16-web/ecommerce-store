@@ -9,7 +9,7 @@ async function loginUser() {
     try {
 
         const response = await fetch(
-            "http://localhost:5000/login",
+            "https://ecommerce-store-bj5z.onrender.com/login",
             {
                 method: "POST",
 

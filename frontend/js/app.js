@@ -45,7 +45,7 @@ userInfo.innerHTML=`
 
 
 fetch(
-"http://localhost:5000/products"
+"https://ecommerce-store-bj5z.onrender.com/products"
 )
 
 .then(res=>res.json())

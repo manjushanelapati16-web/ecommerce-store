@@ -10,7 +10,7 @@ document.getElementById(
 );
 
 fetch(
-"http://localhost:5000/products"
+"https://ecommerce-store-bj5z.onrender.com/products"
 )
 
 .then(
@@ -138,7 +138,7 @@ try{
 
 await fetch(
 
-"http://localhost:5000/cart",
+"https://ecommerce-store-bj5z.onrender.com/cart",
 
 {
 

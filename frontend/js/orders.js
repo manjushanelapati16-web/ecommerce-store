@@ -16,7 +16,7 @@ window.location.href =
 
 fetch(
 
-`http://localhost:5000/orders/${currentUser.user._id}`
+`https://ecommerce-store-bj5z.onrender.com/orders/${currentUser.user._id}`
 
 )
 
@@ -184,7 +184,7 @@ try{
 
 await fetch(
 
-`http://localhost:5000/orders/${orderId}`,
+`https://ecommerce-store-bj5z.onrender.com/orders/${orderId}`,
 
 {
 
